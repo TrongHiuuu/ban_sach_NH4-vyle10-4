@@ -13,11 +13,12 @@
     <div class="wrapper">
         <div class=" form-box login">
             <h1>Đăng nhập</h1>
-            <form action="#">
-                <input type="email" placeholder="Email" required> 
-                <input type="password" placeholder="Mật khẩu" required>
+            <form action="?page=signIn" method="POST">
+                <input type="email" name="email" placeholder="Email" required> 
+                <input type="password" name="password" placeholder="Mật khẩu" required>
                 <div class="alert">Thông báo</div>
-                <button>ĐĂNG NHẬP</button>
+                <button type="submit" name="sign_in">ĐĂNG NHẬP</button>
+                <div>Bạn đã <a href="?page=forgotPassword">quên mật khẩu</a> ?</div>
             </form>
         </div>
     </div>
