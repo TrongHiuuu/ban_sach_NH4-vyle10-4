@@ -13,8 +13,8 @@
     <header>
         <img src="../../asset/img/logo.png" alt="" class="logo">
         <ul>
-            <li><a href="#" class="account"><span>Lê Ngọc Thảo Vy</span></a></li>
-            <li>| <a href="">Đăng xuất</a></li>
+        <li><a href="?page=editInfo" class="account"><span><?php echo $_SESSION['user']['name']; ?></span></a></li>
+            <li>| <a href="?page=signOut">Đăng xuất</a></li>
         </ul>
     </header>
     <div class="container">
