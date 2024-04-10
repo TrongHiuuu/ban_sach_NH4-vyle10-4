@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <script src="https://kit.fontawesome.com/1acf2d22a5.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>Admin</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="" class="logo">
+        <ul>
+            <!--thong bao-->
+            <li class="notification">
+                <i class="fa-regular fa-bell"></i>
+                <!--dung de number-->
+                <div class="num"></div>
+                <div class="sub-menu-wrap">
+                    <div class="sub-menu">
+                        <!--notice message-->
+                        <!--js generate automatically-->
+                        <div>
+                            <img src="duck.jpg" alt="">
+                            <p>Sản phẩm #1 đã hết hàng</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li><a href="#" class="account"><img src="duck.jpg" alt=""><span>Lê Ngọc Thảo Vy</span></a></li>
+            <li>| <a href="">Đăng xuất</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <!--Start: Aside bar-->
+        <aside>
+            <!--menu button-->
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+        <!--sidebar-->
+        <div class="side-bar">
+            <!--Menu items-->
+            <div class="menu">
+                <div class="item"><a href=""><i class="fas fa-th"></i>Sản phẩm</a></div>   
+                <div class="item"><a href=""><i class="fas fa-th"></i>Đơn hàng</a></div>  
+                <div class="item"><a href=""><i class="fas fa-th"></i>Danh mục</a></div>  
+                <div class="item"><a href=""><i class="fas fa-th"></i>Mã giảm giá</a></div>  
+                <div class="item"><a href=""><i class="fas fa-th"></i>Người dùng</a></div>  
+                <div class="item"><a href=""><i class="fas fa-th"></i>Phiếu nhập kho</a></div>
+                <div class="item">
+                    <a href="">
+                        <i class="fas fa-table"></i>Thống kê
+                        <!--dropdown-->
+                        <!--dropdown arrow-->
+                        <i class="fas fa-angle-right dropdown"></i>
+                    </a>
+                    <div class="sub-menu">
+                        <a href="" class="sub-item">Doanh thu</a>
+                        <a href="" class="sub-item">Lợi nhuận</a>
+                        <a href="" class="sub-item">Nhập kho</a>
+                    </div>
+                </div>      
+            </div>
+        </div>
+        </aside>
+        <!--End: Aside bar-->
+        <main class="content">
+            <h1>Dasboard</h1>
+            <div class="rows">
+                <div class="cell">
+                    <div class="qty">23</div>
+                    <div class="title">Sản phẩm</div>
+                </div>
+                <div class="cell">
+                    <div class="qty">23</div>
+                    <div class="title">Sản phẩm</div>
+                </div>
+                <div class="cell">
+                    <div class="qty">23</div>
+                    <div class="title">Sản phẩm</div>
+                </div>
+                <div class="cell">
+                    <div class="qty">23</div>
+                    <div class="title">Sản phẩm</div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
